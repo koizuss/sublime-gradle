@@ -9,7 +9,9 @@
 ## Installation
 
 **The easiest way to install is via the** [**Sublime Package Control**](http://wbond.net/sublime_packages/package_control) **plugin.**
+
 1. Open "Package Control: Add Repository" in your Command Palette and add to "https://github.com/koizuss/sublime-gradle"
+
 2. Open "Package Control: Install Package" in your Command Palette and search for "sublime-gradle"
 
 (if you already have it installed, select "Package Control: Upgrade Package" to upgrade)
