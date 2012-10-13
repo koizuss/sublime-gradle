@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.0",
+    "packages": [
+        {
+            "name": "sublime-gradle",
+            "description": "assist gradle",
+            "author": "kiyoshiro",
+            // "homepage": "http://github.com/bgreenlee/sublime-github",
+            // "last_modified": "2012-03-14 10:09:00",
+            "platforms": {
+                "*": [
+                    {
+                        // "version": "2.1.4",
+                        // "url": "https://nodeload.github.com/bgreenlee/sublime-github/zipball/master"
+                    }
+                ]
+            }
+        }
+    ]
+}
