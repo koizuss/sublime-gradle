@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 /**
- * ${1:description}
+ * ${2:description}
  */
 task ${1:taskName} << {
 	println '${1:taskName}'
