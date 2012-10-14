@@ -1,0 +1,66 @@
+import groovy.json.*
+import org.cyberneko.html.parsers.SAXParser
+
+/**
+ * External dependencies for the build script
+ * @see http://www.gradle.org/docs/current/userguide/userguide_single.html#sec:external_dependencies
+ */
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.sourceforge.nekohtml:nekohtml:1.9.16'
+    }
+}
+
+defaultTasks 'createCompletions'
+
+def completions = [] as Set
+
+/**
+ * Marge trigger from Snippet
+ */
+task margeSnippetTrigger << {
+    def parser = new XmlParser()
+
+    ant.fileScanner {
+        fileset(dir: '.') {
+            include(name: '*.sublime-snippet')
+        }
+    }.each {
+        def trigger = parser.parse(it).tabTrigger.text().replaceAll(/\.\.$/, '')
+        println "trigger: $trigger"
+        completions << trigger
+    }
+}
+
+/**
+ * Marge trigger from Gradle Doc
+ * @see http://www.gradle.org/docs/current/userguide/userguide_single.html
+ */
+task margeGradleDoc << {
+    def parser = new XmlSlurper(new org.cyberneko.html.parsers.SAXParser())
+
+    def html = parser.parse("http://www.gradle.org/docs/current/userguide/userguide_single.html")
+    html.'**'.findAll {
+        it.name() == 'TBODY'
+    }.each {
+        def trigger = it.TR.TD[0].text()
+        if(!trigger || trigger =~ /^\s*$/) return
+        println "trigger: $trigger"
+        completions << trigger
+    }
+}
+
+/**
+ * Create Completions Json
+ */
+task createCompletions(dependsOn: ['margeSnippetTrigger', 'margeGradleDoc']) << {
+    def json = new JsonBuilder()
+    json(
+        "scope": "source.groovy",
+        "completions": completions.collect { ["trigger": it, "contents": it] }
+        )
+    file('gradle-completions.sublime-completions').text = json.toString()
+}
