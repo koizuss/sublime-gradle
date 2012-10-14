@@ -2,10 +2,11 @@
 	<content><![CDATA[
 repositories {
     mavenCentral()
+    // @see http://www.gradle.org/docs/current/userguide/userguide_single.html#sec:repositories
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>repositories</tabTrigger>
+	<tabTrigger>repositories..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
 </snippet>

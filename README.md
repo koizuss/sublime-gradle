@@ -1,10 +1,13 @@
-# Sublime Gradle
+# Sublime Gradle ***beta***
 
-[Sublime Text 2](http://www.sublimetext.com/)上で[Gradle](http://www.gradle.org/)を使いやすくするプラグイン
-※絶賛開発中
+support for use [Gradle](http://www.gradle.org/) on [Sublime Text 2](http://www.sublimetext.com/).
 
-* [Sublime Text 2](http://www.sublimetext.com/) - 2.0.1
-* [Gradle](http://www.gradle.org/) - 1.2
+@see
+http://www.gradle.org/docs/current/userguide/userguide_single.html
+
+use version
+* Sublime Text 2: 2.0.1
+* Gradle: 1.2
 
 ## Installation
 

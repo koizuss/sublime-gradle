@@ -7,7 +7,7 @@ task ${1:copyTask}(type: Copy) {
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>copyTask</tabTrigger>
+	<tabTrigger>copyTask..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
 </snippet>
