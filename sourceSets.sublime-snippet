@@ -1,9 +1,16 @@
 <snippet>
 	<content><![CDATA[
+/**
+ * Changing the project layout
+ * @see http://www.gradle.org/docs/current/userguide/userguide_single.html#N11E14
+ */
 sourceSets {
     ${1:main} {
-        ${2:java} {
-            srcDir '${3:src/java}'
+        ${2:groovy} {
+            srcDir '${3:src/groovy}'
+        }
+        resources {
+            srcDir '${4:src/resources}'
         }
     }
 }
@@ -12,4 +19,5 @@ sourceSets {
 	<tabTrigger>sourceSets..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
+	<description>Changing the project layout</description>
 </snippet>

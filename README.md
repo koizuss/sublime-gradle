@@ -8,6 +8,8 @@ Use version:
 
 Referenced by:
 * http://www.gradle.org/docs/current/userguide/userguide_single.html
+* http://docs.codehaus.org/display/GRADLE/Cookbook
+* https://github.com/phildopus/gradle-sublimetext-plugin
 
 ## Installation
 

@@ -1,5 +1,9 @@
 <snippet>
 	<content><![CDATA[
+/**
+ * Copying Files
+ * @see http://www.gradle.org/docs/current/userguide/userguide_single.html#sec:copying_files
+ */
 task ${1:copyTask}(type: Copy) {
    from '${2:resources}'
    into '${3:target}'
@@ -10,4 +14,5 @@ task ${1:copyTask}(type: Copy) {
 	<tabTrigger>copyTask..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
+	<description>Copying files</description>
 </snippet>

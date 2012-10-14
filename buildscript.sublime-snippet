@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * External dependencies for the build script
+ * @see http://www.gradle.org/docs/current/userguide/userguide_single.html#sec:external_dependencies
+ */
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath '${1:commons-codec:commons-codec:1.2}'
+    }
+} 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>buildscript..</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.groovy</scope>
+	<description>External dependencies for the build script</description>
+</snippet>

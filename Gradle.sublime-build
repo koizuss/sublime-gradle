@@ -1,3 +1,6 @@
+// Build by Gradle
 {
 	"cmd": ["gradle"]
 }
+
+// TODO: on Windows

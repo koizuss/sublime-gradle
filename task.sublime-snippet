@@ -1,5 +1,8 @@
 <snippet>
 	<content><![CDATA[
+/**
+ * ${1:description}
+ */
 task ${1:taskName} << {
 	println '${1:taskName}'
 }
@@ -8,4 +11,5 @@ task ${1:taskName} << {
 	<tabTrigger>task..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
+	<description>Create task</description>
 </snippet>

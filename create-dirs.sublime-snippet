@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Creating new project (structure, directories)
+ * @see http://docs.codehaus.org/display/GRADLE/Cookbook#Cookbook-creatingnewprojectstructuredirectories
+ */
+task "create-dirs" << {
+   sourceSets*.${1:groovy}.srcDirs*.each { it.mkdirs() }
+   sourceSets*.resources.srcDirs*.each { it.mkdirs() }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>create-dirs..</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.groovy</scope>
+	<description>Creating new project (structure, directories)</description>
+</snippet>
