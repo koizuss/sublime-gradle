@@ -35,7 +35,12 @@ The plugin should be picked up automatically. If not, restart Sublime Text.
 
 ## Usage
 
-TODO:
+.gradle file open Groovy syntax automatic
+
+### Build System
+
+1. Tools > Build System > Gradle is check
+2. Declare "defaultTasks" in build.gradle
 
 ## Issues
 
