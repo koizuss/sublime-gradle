@@ -1,13 +1,13 @@
-# Sublime Gradle ***beta***
+# Sublime Gradle
 
-support for use [Gradle](http://www.gradle.org/) on [Sublime Text 2](http://www.sublimetext.com/).
+Support for use [Gradle](http://www.gradle.org/) on [Sublime Text 2](http://www.sublimetext.com/).
 
-@see
-http://www.gradle.org/docs/current/userguide/userguide_single.html
-
-use version
+Use version:
 * Sublime Text 2: 2.0.1
 * Gradle: 1.2
+
+Referenced by:
+* http://www.gradle.org/docs/current/userguide/userguide_single.html
 
 ## Installation
 
