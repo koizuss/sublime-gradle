@@ -48,4 +48,4 @@ TODO:
 
 ## Bugs and Feature Requests
 
-<http://github.com/bgreenlee/sublime-gradle/issues>
+<https://github.com/koizuss/sublime-gradle/issues>
