@@ -6,7 +6,7 @@
             "description": "Support for use Gradle on Sublime Text 2",
             "author": "koizuss.apps@gmail.com",
             "homepage": "https://github.com/koizuss/sublime-gradle",
-            "last_modified": "2013-09-17 14:51:01",
+            "last_modified": "2013-09-17 15:45:29",
             "platforms": {
                 "*": [
                     {
