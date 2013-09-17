@@ -10,7 +10,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'net.sourceforge.nekohtml:nekohtml:1.9.16'
+        classpath 'org.codehaus.groovy:groovy-all:2.1.6',
+                    'net.sourceforge.nekohtml:nekohtml:1.9.16'
     }
 }
 
@@ -63,4 +64,10 @@ task createCompletions(dependsOn: ['margeSnippetTrigger', 'margeGradleDoc']) << 
         "completions": completions.collect { ["trigger": it, "contents": it] }
         )
     file('gradle-completions.sublime-completions').text = json.toString()
+}
+
+task prettyPrint << {
+    def target = file('./gradle-completions.sublime-completions')
+    println JsonOutput.prettyPrint(target.text)
+    target.write JsonOutput.prettyPrint(target.text)
 }
