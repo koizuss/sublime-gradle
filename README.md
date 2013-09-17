@@ -3,13 +3,14 @@
 Support for use [Gradle](http://www.gradle.org/) on [Sublime Text 2](http://www.sublimetext.com/).
 
 Use version:
-* Sublime Text 2: 2.0.1
-* Gradle: 1.2
+
+* Sublime Text 2: 2.0.2
+* Gradle: 1.7
 
 Referenced by:
+
 * http://www.gradle.org/docs/current/userguide/userguide_single.html
-* http://docs.codehaus.org/display/GRADLE/Cookbook
-* https://github.com/phildopus/gradle-sublimetext-plugin
+* http://www.gradle.org/docs/current/dsl
 
 ## Installation
 
@@ -36,15 +37,6 @@ The plugin should be picked up automatically. If not, restart Sublime Text.
 ## Usage
 
 .gradle file open Groovy syntax automatic
-
-### Build System
-
-1. Tools > Build System > Gradle is check
-2. Declare "defaultTasks" in build.gradle
-
-## Issues
-
-TODO:
 
 ## Bugs and Feature Requests
 

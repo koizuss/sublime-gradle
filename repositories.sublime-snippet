@@ -12,5 +12,5 @@ repositories {
 	<tabTrigger>repositories..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
-	<description>Repositories</description>
+	<description>Gradle</description>
 </snippet>

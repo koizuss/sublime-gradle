@@ -5,12 +5,12 @@
  * @see http://www.gradle.org/docs/current/userguide/userguide_single.html#gradle_wrapper
  */
 task wrapper(type: Wrapper) {
-    gradleVersion = '${1:1.2}'
+    gradleVersion = '${1:1.7}'
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>task wrapper..</tabTrigger>
+	<tabTrigger>wrapper..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
-	<description>Wrapper task</description>
+	<description>Gradle</description>
 </snippet>
