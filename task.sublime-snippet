@@ -11,5 +11,5 @@ task ${1:taskName} << {
 	<tabTrigger>task..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
-	<description>Create task</description>
+	<description>Gradle</description>
 </snippet>

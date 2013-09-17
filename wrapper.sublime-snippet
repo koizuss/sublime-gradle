@@ -12,5 +12,5 @@ task wrapper(type: Wrapper) {
 	<tabTrigger>wrapper..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
-	<description>Wrapper task</description>
+	<description>Gradle</description>
 </snippet>

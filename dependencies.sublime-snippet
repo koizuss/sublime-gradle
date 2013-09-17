@@ -12,5 +12,5 @@ dependencies {
 	<tabTrigger>dependencies..</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.groovy</scope>
-	<description>Declare dependencies</description>
+	<description>Gradle</description>
 </snippet>
