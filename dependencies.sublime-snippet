@@ -5,7 +5,7 @@
  * @see http://www.gradle.org/docs/current/userguide/userguide_single.html#sec:how_to_declare_your_dependencies
  */
 dependencies {
-    ${1:groovy} '${2:org.codehaus.groovy:groovy:1.7.10}'
+    ${1:compile} '${2:org.codehaus.groovy:groovy-all:2.1.6}'
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -11,63 +11,82 @@ buildscript {
     }
     dependencies {
         classpath 'org.codehaus.groovy:groovy-all:2.1.6',
-                    'net.sourceforge.nekohtml:nekohtml:1.9.16'
+                    'net.sourceforge.nekohtml:nekohtml:1.9.18'
     }
 }
 
-defaultTasks 'createCompletions'
+archivesBaseName = 'sublime-gradle'
 
-def completions = [] as Set
-
-/**
- * Marge trigger from Snippet
- */
-task margeSnippetTrigger << {
-    def parser = new XmlParser()
-
-    ant.fileScanner {
-        fileset(dir: '.') {
-            include(name: '*.sublime-snippet')
-        }
-    }.each {
-        def trigger = parser.parse(it).tabTrigger.text().replaceAll(/\.\.$/, '')
-        println "trigger: $trigger"
-        completions << trigger
-    }
+ext {
+    gradleDoc = 'http://www.gradle.org/docs/current/dsl'
 }
 
-/**
- * Marge trigger from Gradle Doc
- * @see http://www.gradle.org/docs/current/userguide/userguide_single.html
- */
-task margeGradleDoc << {
+task createCompletions << {
     def parser = new XmlSlurper(new org.cyberneko.html.parsers.SAXParser())
 
-    def html = parser.parse("http://www.gradle.org/docs/current/userguide/userguide_single.html")
-    html.'**'.findAll {
-        it.name() == 'TBODY'
+    def links = [] as Set
+    parser.parse(gradleDoc).'**'.findAll {
+        it.name() == 'A' && it['@href'] =~ /^org\.gradle\.api/
     }.each {
-        def trigger = it.TR.TD[0].text()
-        if(!trigger || trigger =~ /^\s*$/) return
-        println "trigger: $trigger"
-        completions << trigger
+        def link = it['@href'].toString().replaceAll(/\#.*/, '')
+        links << link
     }
-}
 
-/**
- * Create Completions Json
- */
-task createCompletions(dependsOn: ['margeSnippetTrigger', 'margeGradleDoc']) << {
+    def items = [] as Set
+    links.each {
+        println it
+        parser.parse("$gradleDoc/$it").'**'.findAll {
+            it.name() == 'H4' && it.@class == 'signature'
+        }.each {
+            it.CODE.findAll {
+                it.@class == 'literal'
+            }.each {
+                println it.text()
+                items << it.text()
+            }
+        }
+        println "-------------------------\n"
+    }
+
+    def data = []
+    items.each {
+        data << [trigger: it, contents:it]
+    }
+
     def json = new JsonBuilder()
-    json(
-        "scope": "source.groovy",
-        "completions": completions.collect { ["trigger": it, "contents": it] }
-        )
-    file('gradle-completions.sublime-completions').text = json.toString()
+    json scope: 'source.groovy', completions: data
+
+    file('./gradle-completions.sublime-completions').write(json.toPrettyString())
 }
 
-task prettyPrint << {
-    def target = file('./gradle-completions.sublime-completions')
-    println JsonOutput.prettyPrint(target.text)
-    target.write JsonOutput.prettyPrint(target.text)
+task createPackages {
+    doFirst {
+        assert archivesBaseName
+        assert version != 'unspecified'
+        ext.homepage = "https://github.com/koizuss/$archivesBaseName"
+        ext.url = "${ext.homepage}/zipball/master"
+    }
+
+    doLast {
+        def json = new JsonBuilder()
+        json schema_version: '1.2', packages: [
+            [
+                "name": archivesBaseName,
+                "description": "Support for use Gradle on Sublime Text 2",
+                "author": "koizuss.apps@gmail.com",
+                "homepage": homepage,
+                "last_modified": new Date().format('yyyy-MM-dd HH:mm:ss'),
+                "platforms": [
+                    "*": [
+                        [
+                            "version": version,
+                            "url": url
+                        ]
+                    ]
+                ]
+            ]
+        ]
+
+        file('./packages.json').write(json.toPrettyString())
+    }
 }

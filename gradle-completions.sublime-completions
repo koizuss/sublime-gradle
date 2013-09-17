@@ -2,316 +2,40 @@
     "scope": "source.groovy",
     "completions": [
         {
-            "trigger": "project",
-            "contents": "project"
+            "trigger": "allprojects",
+            "contents": "allprojects"
         },
         {
-            "trigger": "archiveName",
-            "contents": "archiveName"
+            "trigger": "ant",
+            "contents": "ant"
         },
         {
-            "trigger": "ERROR",
-            "contents": "ERROR"
+            "trigger": "artifacts",
+            "contents": "artifacts"
         },
         {
-            "trigger": "no logging options",
-            "contents": "no logging options"
+            "trigger": "buildDir",
+            "contents": "buildDir"
         },
         {
-            "trigger": "No stacktrace options",
-            "contents": "No stacktrace options"
-        },
-        {
-            "trigger": "java",
-            "contents": "java"
-        },
-        {
-            "trigger": "cpp",
-            "contents": "cpp"
-        },
-        {
-            "trigger": "announce",
-            "contents": "announce"
-        },
-        {
-            "trigger": "checkstyle",
-            "contents": "checkstyle"
-        },
-        {
-            "trigger": "base",
-            "contents": "base"
-        },
-        {
-            "trigger": "compileJava",
-            "contents": "compileJava"
-        },
-        {
-            "trigger": "compileSourceSetJava",
-            "contents": "compileSourceSetJava"
-        },
-        {
-            "trigger": "assemble",
-            "contents": "assemble"
-        },
-        {
-            "trigger": "src/main/java",
-            "contents": "src/main/java"
-        },
-        {
-            "trigger": "compile",
-            "contents": "compile"
-        },
-        {
-            "trigger": "sourceSetCompile",
-            "contents": "sourceSetCompile"
-        },
-        {
-            "trigger": "reportsDirName",
-            "contents": "reportsDirName"
-        },
-        {
-            "trigger": "sourceSets",
-            "contents": "sourceSets"
-        },
-        {
-            "trigger": "name",
-            "contents": "name"
-        },
-        {
-            "trigger": "classpath",
-            "contents": "classpath"
-        },
-        {
-            "trigger": "dir",
-            "contents": "dir"
-        },
-        {
-            "trigger": "srcDirs",
-            "contents": "srcDirs"
-        },
-        {
-            "trigger": "testClassesDir",
-            "contents": "testClassesDir"
-        },
-        {
-            "trigger": "compileGroovy",
-            "contents": "compileGroovy"
-        },
-        {
-            "trigger": "groovy",
-            "contents": "groovy"
-        },
-        {
-            "trigger": "allJava",
-            "contents": "allJava"
-        },
-        {
-            "trigger": "compileScala",
-            "contents": "compileScala"
-        },
-        {
-            "trigger": "scala",
-            "contents": "scala"
-        },
-        {
-            "trigger": "war",
-            "contents": "war"
-        },
-        {
-            "trigger": "src/main/webapp",
-            "contents": "src/main/webapp"
-        },
-        {
-            "trigger": "webAppDirName",
-            "contents": "webAppDirName"
-        },
-        {
-            "trigger": "ear",
-            "contents": "ear"
-        },
-        {
-            "trigger": "src/main/application",
-            "contents": "src/main/application"
-        },
-        {
-            "trigger": "appDirName",
-            "contents": "appDirName"
-        },
-        {
-            "trigger": "jettyRun",
-            "contents": "jettyRun"
-        },
-        {
-            "trigger": "httpPort",
-            "contents": "httpPort"
-        },
-        {
-            "trigger": "checkstyleMain",
-            "contents": "checkstyleMain"
-        },
-        {
-            "trigger": "config/checkstyle/checkstyle.xml",
-            "contents": "config/checkstyle/checkstyle.xml"
-        },
-        {
-            "trigger": "codenarcMain",
-            "contents": "codenarcMain"
-        },
-        {
-            "trigger": "config/codenarc/codenarc.xml",
-            "contents": "config/codenarc/codenarc.xml"
-        },
-        {
-            "trigger": "codenarc",
-            "contents": "codenarc"
-        },
-        {
-            "trigger": "findbugsMain",
-            "contents": "findbugsMain"
-        },
-        {
-            "trigger": "findbugs",
-            "contents": "findbugs"
-        },
-        {
-            "trigger": "jdependMain",
-            "contents": "jdependMain"
-        },
-        {
-            "trigger": "jdepend",
-            "contents": "jdepend"
-        },
-        {
-            "trigger": "pmdMain",
-            "contents": "pmdMain"
-        },
-        {
-            "trigger": "pmd",
-            "contents": "pmd"
-        },
-        {
-            "trigger": "sonarAnalyze",
-            "contents": "sonarAnalyze"
-        },
-        {
-            "trigger": "osgiManifest()",
-            "contents": "osgiManifest()"
-        },
-        {
-            "trigger": "None",
-            "contents": "None"
-        },
-        {
-            "trigger": "eclipse",
-            "contents": "eclipse"
-        },
-        {
-            "trigger": "EclipseModel",
-            "contents": "EclipseModel"
-        },
-        {
-            "trigger": "EclipseProject",
-            "contents": "EclipseProject"
-        },
-        {
-            "trigger": "idea",
-            "contents": "idea"
-        },
-        {
-            "trigger": "IdeaModel",
-            "contents": "IdeaModel"
-        },
-        {
-            "trigger": "IdeaProject",
-            "contents": "IdeaProject"
-        },
-        {
-            "trigger": "generateGrammarSource",
-            "contents": "generateGrammarSource"
-        },
-        {
-            "trigger": "src/main/antlr",
-            "contents": "src/main/antlr"
-        },
-        {
-            "trigger": "antlr",
-            "contents": "antlr"
-        },
-        {
-            "trigger": "dependencyReport",
-            "contents": "dependencyReport"
-        },
-        {
-            "trigger": "twitter",
-            "contents": "twitter"
-        },
-        {
-            "trigger": "run",
-            "contents": "run"
-        },
-        {
-            "trigger": "External module dependency",
-            "contents": "External module dependency"
-        },
-        {
-            "trigger": "Maven central repository",
-            "contents": "Maven central repository"
-        },
-        {
-            "trigger": "install",
-            "contents": "install"
-        },
-        {
-            "trigger": "pomDirName",
-            "contents": "pomDirName"
-        },
-        {
-            "trigger": "http",
-            "contents": "http"
-        },
-        {
-            "trigger": "root",
-            "contents": "root"
-        },
-        {
-            "trigger": "groupId",
-            "contents": "groupId"
-        },
-        {
-            "trigger": "Operating System",
-            "contents": "Operating System"
-        },
-        {
-            "trigger": "GRADLE_WRAPPER_ALWAYS_UNPACK",
-            "contents": "GRADLE_WRAPPER_ALWAYS_UNPACK"
-        },
-        {
-            "trigger": "ant.fileScanner",
-            "contents": "ant.fileScanner"
-        },
-        {
-            "trigger": "apply plugin",
-            "contents": "apply plugin"
-        },
-        {
-            "trigger": "archivesBaseName",
-            "contents": "archivesBaseName"
+            "trigger": "buildFile",
+            "contents": "buildFile"
         },
         {
             "trigger": "buildscript",
             "contents": "buildscript"
         },
         {
+            "trigger": "childProjects",
+            "contents": "childProjects"
+        },
+        {
             "trigger": "configurations",
             "contents": "configurations"
         },
         {
-            "trigger": "copyTask",
-            "contents": "copyTask"
-        },
-        {
-            "trigger": "create-dirs",
-            "contents": "create-dirs"
+            "trigger": "convention",
+            "contents": "convention"
         },
         {
             "trigger": "defaultTasks",
@@ -322,8 +46,508 @@
             "contents": "dependencies"
         },
         {
+            "trigger": "dependsOnProjects",
+            "contents": "dependsOnProjects"
+        },
+        {
+            "trigger": "description",
+            "contents": "description"
+        },
+        {
+            "trigger": "extensions",
+            "contents": "extensions"
+        },
+        {
+            "trigger": "gradle",
+            "contents": "gradle"
+        },
+        {
+            "trigger": "group",
+            "contents": "group"
+        },
+        {
+            "trigger": "logger",
+            "contents": "logger"
+        },
+        {
+            "trigger": "logging",
+            "contents": "logging"
+        },
+        {
+            "trigger": "name",
+            "contents": "name"
+        },
+        {
+            "trigger": "parent",
+            "contents": "parent"
+        },
+        {
+            "trigger": "path",
+            "contents": "path"
+        },
+        {
+            "trigger": "plugins",
+            "contents": "plugins"
+        },
+        {
+            "trigger": "project",
+            "contents": "project"
+        },
+        {
+            "trigger": "projectDir",
+            "contents": "projectDir"
+        },
+        {
+            "trigger": "properties",
+            "contents": "properties"
+        },
+        {
+            "trigger": "repositories",
+            "contents": "repositories"
+        },
+        {
+            "trigger": "resources",
+            "contents": "resources"
+        },
+        {
+            "trigger": "rootDir",
+            "contents": "rootDir"
+        },
+        {
+            "trigger": "rootProject",
+            "contents": "rootProject"
+        },
+        {
+            "trigger": "state",
+            "contents": "state"
+        },
+        {
+            "trigger": "status",
+            "contents": "status"
+        },
+        {
+            "trigger": "subprojects",
+            "contents": "subprojects"
+        },
+        {
+            "trigger": "tasks",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "version",
+            "contents": "version"
+        },
+        {
+            "trigger": "announce",
+            "contents": "announce"
+        },
+        {
+            "trigger": "applicationDefaultJvmArgs",
+            "contents": "applicationDefaultJvmArgs"
+        },
+        {
+            "trigger": "applicationDistribution",
+            "contents": "applicationDistribution"
+        },
+        {
+            "trigger": "applicationName",
+            "contents": "applicationName"
+        },
+        {
+            "trigger": "mainClassName",
+            "contents": "mainClassName"
+        },
+        {
+            "trigger": "checkstyle",
+            "contents": "checkstyle"
+        },
+        {
+            "trigger": "checkstyleConfigFile",
+            "contents": "checkstyleConfigFile"
+        },
+        {
+            "trigger": "checkstyleConfigFileName",
+            "contents": "checkstyleConfigFileName"
+        },
+        {
+            "trigger": "checkstyleProperties",
+            "contents": "checkstyleProperties"
+        },
+        {
+            "trigger": "checkstyleResultsDir",
+            "contents": "checkstyleResultsDir"
+        },
+        {
+            "trigger": "checkstyleResultsDirName",
+            "contents": "checkstyleResultsDirName"
+        },
+        {
+            "trigger": "codeNarcConfigFile",
+            "contents": "codeNarcConfigFile"
+        },
+        {
+            "trigger": "codeNarcConfigFileName",
+            "contents": "codeNarcConfigFileName"
+        },
+        {
+            "trigger": "codeNarcReportsDir",
+            "contents": "codeNarcReportsDir"
+        },
+        {
+            "trigger": "codeNarcReportsDirName",
+            "contents": "codeNarcReportsDirName"
+        },
+        {
+            "trigger": "codenarc",
+            "contents": "codenarc"
+        },
+        {
+            "trigger": "binaries",
+            "contents": "binaries"
+        },
+        {
+            "trigger": "cpp",
+            "contents": "cpp"
+        },
+        {
+            "trigger": "executables",
+            "contents": "executables"
+        },
+        {
+            "trigger": "libraries",
+            "contents": "libraries"
+        },
+        {
+            "trigger": "toolChains",
+            "contents": "toolChains"
+        },
+        {
+            "trigger": "distributions",
+            "contents": "distributions"
+        },
+        {
+            "trigger": "appDirName",
+            "contents": "appDirName"
+        },
+        {
+            "trigger": "deploymentDescriptor",
+            "contents": "deploymentDescriptor"
+        },
+        {
+            "trigger": "libDirName",
+            "contents": "libDirName"
+        },
+        {
+            "trigger": "eclipse",
+            "contents": "eclipse"
+        },
+        {
+            "trigger": "findbugs",
+            "contents": "findbugs"
+        },
+        {
+            "trigger": "idea",
+            "contents": "idea"
+        },
+        {
+            "trigger": "jacoco",
+            "contents": "jacoco"
+        },
+        {
+            "trigger": "apiDocTitle",
+            "contents": "apiDocTitle"
+        },
+        {
+            "trigger": "archivesBaseName",
+            "contents": "archivesBaseName"
+        },
+        {
+            "trigger": "distsDir",
+            "contents": "distsDir"
+        },
+        {
+            "trigger": "distsDirName",
+            "contents": "distsDirName"
+        },
+        {
+            "trigger": "docsDir",
+            "contents": "docsDir"
+        },
+        {
+            "trigger": "docsDirName",
+            "contents": "docsDirName"
+        },
+        {
+            "trigger": "libsDir",
+            "contents": "libsDir"
+        },
+        {
+            "trigger": "libsDirName",
+            "contents": "libsDirName"
+        },
+        {
+            "trigger": "reportsDir",
+            "contents": "reportsDir"
+        },
+        {
+            "trigger": "reportsDirName",
+            "contents": "reportsDirName"
+        },
+        {
+            "trigger": "sourceCompatibility",
+            "contents": "sourceCompatibility"
+        },
+        {
+            "trigger": "sourceSets",
+            "contents": "sourceSets"
+        },
+        {
+            "trigger": "targetCompatibility",
+            "contents": "targetCompatibility"
+        },
+        {
+            "trigger": "testReportDir",
+            "contents": "testReportDir"
+        },
+        {
+            "trigger": "testReportDirName",
+            "contents": "testReportDirName"
+        },
+        {
+            "trigger": "testResultsDir",
+            "contents": "testResultsDir"
+        },
+        {
+            "trigger": "testResultsDirName",
+            "contents": "testResultsDirName"
+        },
+        {
+            "trigger": "jdepend",
+            "contents": "jdepend"
+        },
+        {
+            "trigger": "httpPort",
+            "contents": "httpPort"
+        },
+        {
+            "trigger": "stopKey",
+            "contents": "stopKey"
+        },
+        {
+            "trigger": "stopPort",
+            "contents": "stopPort"
+        },
+        {
+            "trigger": "conf2ScopeMappings",
+            "contents": "conf2ScopeMappings"
+        },
+        {
+            "trigger": "mavenPomDir",
+            "contents": "mavenPomDir"
+        },
+        {
+            "trigger": "pmd",
+            "contents": "pmd"
+        },
+        {
+            "trigger": "projectReportDir",
+            "contents": "projectReportDir"
+        },
+        {
+            "trigger": "projectReportDirName",
+            "contents": "projectReportDirName"
+        },
+        {
+            "trigger": "publishing",
+            "contents": "publishing"
+        },
+        {
+            "trigger": "signing",
+            "contents": "signing"
+        },
+        {
+            "trigger": "webAppDir",
+            "contents": "webAppDir"
+        },
+        {
+            "trigger": "webAppDirName",
+            "contents": "webAppDirName"
+        },
+        {
+            "trigger": "absoluteProjectPath",
+            "contents": "absoluteProjectPath"
+        },
+        {
+            "trigger": "afterEvaluate",
+            "contents": "afterEvaluate"
+        },
+        {
+            "trigger": "apply",
+            "contents": "apply"
+        },
+        {
+            "trigger": "beforeEvaluate",
+            "contents": "beforeEvaluate"
+        },
+        {
+            "trigger": "childrenDependOnMe",
+            "contents": "childrenDependOnMe"
+        },
+        {
+            "trigger": "configure",
+            "contents": "configure"
+        },
+        {
+            "trigger": "container",
+            "contents": "container"
+        },
+        {
+            "trigger": "copy",
+            "contents": "copy"
+        },
+        {
+            "trigger": "copySpec",
+            "contents": "copySpec"
+        },
+        {
+            "trigger": "delete",
+            "contents": "delete"
+        },
+        {
             "trigger": "dependsOn",
             "contents": "dependsOn"
+        },
+        {
+            "trigger": "dependsOnChildren",
+            "contents": "dependsOnChildren"
+        },
+        {
+            "trigger": "evaluationDependsOn",
+            "contents": "evaluationDependsOn"
+        },
+        {
+            "trigger": "exec",
+            "contents": "exec"
+        },
+        {
+            "trigger": "file",
+            "contents": "file"
+        },
+        {
+            "trigger": "fileTree",
+            "contents": "fileTree"
+        },
+        {
+            "trigger": "files",
+            "contents": "files"
+        },
+        {
+            "trigger": "findProject",
+            "contents": "findProject"
+        },
+        {
+            "trigger": "getAllTasks",
+            "contents": "getAllTasks"
+        },
+        {
+            "trigger": "getTasksByName",
+            "contents": "getTasksByName"
+        },
+        {
+            "trigger": "hasProperty",
+            "contents": "hasProperty"
+        },
+        {
+            "trigger": "javaexec",
+            "contents": "javaexec"
+        },
+        {
+            "trigger": "mkdir",
+            "contents": "mkdir"
+        },
+        {
+            "trigger": "property",
+            "contents": "property"
+        },
+        {
+            "trigger": "relativePath",
+            "contents": "relativePath"
+        },
+        {
+            "trigger": "relativeProjectPath",
+            "contents": "relativeProjectPath"
+        },
+        {
+            "trigger": "setProperty",
+            "contents": "setProperty"
+        },
+        {
+            "trigger": "tarTree",
+            "contents": "tarTree"
+        },
+        {
+            "trigger": "task",
+            "contents": "task"
+        },
+        {
+            "trigger": "uri",
+            "contents": "uri"
+        },
+        {
+            "trigger": "zipTree",
+            "contents": "zipTree"
+        },
+        {
+            "trigger": "manifest",
+            "contents": "manifest"
+        },
+        {
+            "trigger": "pom",
+            "contents": "pom"
+        },
+        {
+            "trigger": "osgiManifest",
+            "contents": "osgiManifest"
+        },
+        {
+            "trigger": "actions",
+            "contents": "actions"
+        },
+        {
+            "trigger": "didWork",
+            "contents": "didWork"
+        },
+        {
+            "trigger": "enabled",
+            "contents": "enabled"
+        },
+        {
+            "trigger": "finalizedBy",
+            "contents": "finalizedBy"
+        },
+        {
+            "trigger": "inputs",
+            "contents": "inputs"
+        },
+        {
+            "trigger": "mustRunAfter",
+            "contents": "mustRunAfter"
+        },
+        {
+            "trigger": "outputs",
+            "contents": "outputs"
+        },
+        {
+            "trigger": "taskDependencies",
+            "contents": "taskDependencies"
+        },
+        {
+            "trigger": "temporaryDir",
+            "contents": "temporaryDir"
+        },
+        {
+            "trigger": "deleteAllActions",
+            "contents": "deleteAllActions"
         },
         {
             "trigger": "doFirst",
@@ -334,48 +558,1004 @@
             "contents": "doLast"
         },
         {
-            "trigger": "gradle-sublimetext-plugin",
-            "contents": "gradle-sublimetext-plugin"
-        },
-        {
-            "trigger": "hasProperty",
-            "contents": "hasProperty"
-        },
-        {
-            "trigger": "importBuild",
-            "contents": "importBuild"
+            "trigger": "leftShift",
+            "contents": "leftShift"
         },
         {
             "trigger": "onlyIf",
             "contents": "onlyIf"
         },
         {
-            "trigger": "repositories",
-            "contents": "repositories"
+            "trigger": "gradleHomeDir",
+            "contents": "gradleHomeDir"
         },
         {
-            "trigger": "syncTask",
-            "contents": "syncTask"
+            "trigger": "gradleUserHomeDir",
+            "contents": "gradleUserHomeDir"
         },
         {
-            "trigger": "task",
-            "contents": "task"
+            "trigger": "gradleVersion",
+            "contents": "gradleVersion"
         },
         {
-            "trigger": "uploadArchives",
-            "contents": "uploadArchives"
+            "trigger": "startParameter",
+            "contents": "startParameter"
         },
         {
-            "trigger": "version",
-            "contents": "version"
+            "trigger": "taskGraph",
+            "contents": "taskGraph"
         },
         {
-            "trigger": "task wrapper",
-            "contents": "task wrapper"
+            "trigger": "addBuildListener",
+            "contents": "addBuildListener"
         },
         {
-            "trigger": "zipTask",
-            "contents": "zipTask"
+            "trigger": "addListener",
+            "contents": "addListener"
+        },
+        {
+            "trigger": "addProjectEvaluationListener",
+            "contents": "addProjectEvaluationListener"
+        },
+        {
+            "trigger": "afterProject",
+            "contents": "afterProject"
+        },
+        {
+            "trigger": "beforeProject",
+            "contents": "beforeProject"
+        },
+        {
+            "trigger": "buildFinished",
+            "contents": "buildFinished"
+        },
+        {
+            "trigger": "projectsEvaluated",
+            "contents": "projectsEvaluated"
+        },
+        {
+            "trigger": "projectsLoaded",
+            "contents": "projectsLoaded"
+        },
+        {
+            "trigger": "removeListener",
+            "contents": "removeListener"
+        },
+        {
+            "trigger": "removeProjectEvaluationListener",
+            "contents": "removeProjectEvaluationListener"
+        },
+        {
+            "trigger": "settingsEvaluated",
+            "contents": "settingsEvaluated"
+        },
+        {
+            "trigger": "useLogger",
+            "contents": "useLogger"
+        },
+        {
+            "trigger": "settings",
+            "contents": "settings"
+        },
+        {
+            "trigger": "settingsDir",
+            "contents": "settingsDir"
+        },
+        {
+            "trigger": "include",
+            "contents": "include"
+        },
+        {
+            "trigger": "includeFlat",
+            "contents": "includeFlat"
+        },
+        {
+            "trigger": "allJava",
+            "contents": "allJava"
+        },
+        {
+            "trigger": "allSource",
+            "contents": "allSource"
+        },
+        {
+            "trigger": "compileClasspath",
+            "contents": "compileClasspath"
+        },
+        {
+            "trigger": "java",
+            "contents": "java"
+        },
+        {
+            "trigger": "output",
+            "contents": "output"
+        },
+        {
+            "trigger": "runtimeClasspath",
+            "contents": "runtimeClasspath"
+        },
+        {
+            "trigger": "antlr",
+            "contents": "antlr"
+        },
+        {
+            "trigger": "allGroovy",
+            "contents": "allGroovy"
+        },
+        {
+            "trigger": "groovy",
+            "contents": "groovy"
+        },
+        {
+            "trigger": "allScala",
+            "contents": "allScala"
+        },
+        {
+            "trigger": "scala",
+            "contents": "scala"
+        },
+        {
+            "trigger": "compiledBy",
+            "contents": "compiledBy"
+        },
+        {
+            "trigger": "getCompileTaskName",
+            "contents": "getCompileTaskName"
+        },
+        {
+            "trigger": "getTaskName",
+            "contents": "getTaskName"
+        },
+        {
+            "trigger": "classesDir",
+            "contents": "classesDir"
+        },
+        {
+            "trigger": "resourcesDir",
+            "contents": "resourcesDir"
+        },
+        {
+            "trigger": "dir",
+            "contents": "dir"
+        },
+        {
+            "trigger": "getDirs",
+            "contents": "getDirs"
+        },
+        {
+            "trigger": "incremental",
+            "contents": "incremental"
+        },
+        {
+            "trigger": "outOfDate",
+            "contents": "outOfDate"
+        },
+        {
+            "trigger": "removed",
+            "contents": "removed"
+        },
+        {
+            "trigger": "allArtifacts",
+            "contents": "allArtifacts"
+        },
+        {
+            "trigger": "allDependencies",
+            "contents": "allDependencies"
+        },
+        {
+            "trigger": "buildDependencies",
+            "contents": "buildDependencies"
+        },
+        {
+            "trigger": "excludeRules",
+            "contents": "excludeRules"
+        },
+        {
+            "trigger": "extendsFrom",
+            "contents": "extendsFrom"
+        },
+        {
+            "trigger": "hierarchy",
+            "contents": "hierarchy"
+        },
+        {
+            "trigger": "incoming",
+            "contents": "incoming"
+        },
+        {
+            "trigger": "resolutionStrategy",
+            "contents": "resolutionStrategy"
+        },
+        {
+            "trigger": "resolvedConfiguration",
+            "contents": "resolvedConfiguration"
+        },
+        {
+            "trigger": "transitive",
+            "contents": "transitive"
+        },
+        {
+            "trigger": "visible",
+            "contents": "visible"
+        },
+        {
+            "trigger": "copyRecursive",
+            "contents": "copyRecursive"
+        },
+        {
+            "trigger": "exclude",
+            "contents": "exclude"
+        },
+        {
+            "trigger": "fileCollection",
+            "contents": "fileCollection"
+        },
+        {
+            "trigger": "getTaskDependencyFromProjectDependency",
+            "contents": "getTaskDependencyFromProjectDependency"
+        },
+        {
+            "trigger": "forcedModules",
+            "contents": "forcedModules"
+        },
+        {
+            "trigger": "cacheChangingModulesFor",
+            "contents": "cacheChangingModulesFor"
+        },
+        {
+            "trigger": "cacheDynamicVersionsFor",
+            "contents": "cacheDynamicVersionsFor"
+        },
+        {
+            "trigger": "eachDependency",
+            "contents": "eachDependency"
+        },
+        {
+            "trigger": "failOnVersionConflict",
+            "contents": "failOnVersionConflict"
+        },
+        {
+            "trigger": "force",
+            "contents": "force"
+        },
+        {
+            "trigger": "get",
+            "contents": "get"
+        },
+        {
+            "trigger": "has",
+            "contents": "has"
+        },
+        {
+            "trigger": "set",
+            "contents": "set"
+        },
+        {
+            "trigger": "publications",
+            "contents": "publications"
+        },
+        {
+            "trigger": "destination",
+            "contents": "destination"
+        },
+        {
+            "trigger": "displayName",
+            "contents": "displayName"
+        },
+        {
+            "trigger": "outputType",
+            "contents": "outputType"
+        },
+        {
+            "trigger": "reports",
+            "contents": "reports"
+        },
+        {
+            "trigger": "baseDir",
+            "contents": "baseDir"
+        },
+        {
+            "trigger": "descriptor",
+            "contents": "descriptor"
+        },
+        {
+            "trigger": "module",
+            "contents": "module"
+        },
+        {
+            "trigger": "organisation",
+            "contents": "organisation"
+        },
+        {
+            "trigger": "revision",
+            "contents": "revision"
+        },
+        {
+            "trigger": "artifact",
+            "contents": "artifact"
+        },
+        {
+            "trigger": "from",
+            "contents": "from"
+        },
+        {
+            "trigger": "classifier",
+            "contents": "classifier"
+        },
+        {
+            "trigger": "conf",
+            "contents": "conf"
+        },
+        {
+            "trigger": "extension",
+            "contents": "extension"
+        },
+        {
+            "trigger": "type",
+            "contents": "type"
+        },
+        {
+            "trigger": "builtBy",
+            "contents": "builtBy"
+        },
+        {
+            "trigger": "withXml",
+            "contents": "withXml"
+        },
+        {
+            "trigger": "artifactId",
+            "contents": "artifactId"
+        },
+        {
+            "trigger": "groupId",
+            "contents": "groupId"
+        },
+        {
+            "trigger": "setArtifacts",
+            "contents": "setArtifacts"
+        },
+        {
+            "trigger": "add",
+            "contents": "add"
+        },
+        {
+            "trigger": "detachedConfiguration",
+            "contents": "detachedConfiguration"
+        },
+        {
+            "trigger": "getAt",
+            "contents": "getAt"
+        },
+        {
+            "trigger": "getByName",
+            "contents": "getByName"
+        },
+        {
+            "trigger": "flatDir",
+            "contents": "flatDir"
+        },
+        {
+            "trigger": "ivy",
+            "contents": "ivy"
+        },
+        {
+            "trigger": "jcenter",
+            "contents": "jcenter"
+        },
+        {
+            "trigger": "maven",
+            "contents": "maven"
+        },
+        {
+            "trigger": "mavenCentral",
+            "contents": "mavenCentral"
+        },
+        {
+            "trigger": "mavenLocal",
+            "contents": "mavenLocal"
+        },
+        {
+            "trigger": "mavenRepo",
+            "contents": "mavenRepo"
+        },
+        {
+            "trigger": "mavenDeployer",
+            "contents": "mavenDeployer"
+        },
+        {
+            "trigger": "mavenInstaller",
+            "contents": "mavenInstaller"
+        },
+        {
+            "trigger": "create",
+            "contents": "create"
+        },
+        {
+            "trigger": "gradleApi",
+            "contents": "gradleApi"
+        },
+        {
+            "trigger": "localGroovy",
+            "contents": "localGroovy"
+        },
+        {
+            "trigger": "outputFile",
+            "contents": "outputFile"
+        },
+        {
+            "trigger": "projects",
+            "contents": "projects"
+        },
+        {
+            "trigger": "configuration",
+            "contents": "configuration"
+        },
+        {
+            "trigger": "dependencySpec",
+            "contents": "dependencySpec"
+        },
+        {
+            "trigger": "antlrClasspath",
+            "contents": "antlrClasspath"
+        },
+        {
+            "trigger": "excludes",
+            "contents": "excludes"
+        },
+        {
+            "trigger": "includes",
+            "contents": "includes"
+        },
+        {
+            "trigger": "outputDirectory",
+            "contents": "outputDirectory"
+        },
+        {
+            "trigger": "source",
+            "contents": "source"
+        },
+        {
+            "trigger": "trace",
+            "contents": "trace"
+        },
+        {
+            "trigger": "traceLexer",
+            "contents": "traceLexer"
+        },
+        {
+            "trigger": "traceParser",
+            "contents": "traceParser"
+        },
+        {
+            "trigger": "traceTreeWalker",
+            "contents": "traceTreeWalker"
+        },
+        {
+            "trigger": "checkstyleClasspath",
+            "contents": "checkstyleClasspath"
+        },
+        {
+            "trigger": "classpath",
+            "contents": "classpath"
+        },
+        {
+            "trigger": "configFile",
+            "contents": "configFile"
+        },
+        {
+            "trigger": "configProperties",
+            "contents": "configProperties"
+        },
+        {
+            "trigger": "ignoreFailures",
+            "contents": "ignoreFailures"
+        },
+        {
+            "trigger": "showViolations",
+            "contents": "showViolations"
+        },
+        {
+            "trigger": "codenarcClasspath",
+            "contents": "codenarcClasspath"
+        },
+        {
+            "trigger": "maxPriority1Violations",
+            "contents": "maxPriority1Violations"
+        },
+        {
+            "trigger": "maxPriority2Violations",
+            "contents": "maxPriority2Violations"
+        },
+        {
+            "trigger": "maxPriority3Violations",
+            "contents": "maxPriority3Violations"
+        },
+        {
+            "trigger": "reportDir",
+            "contents": "reportDir"
+        },
+        {
+            "trigger": "sourceBuild",
+            "contents": "sourceBuild"
+        },
+        {
+            "trigger": "targetBuild",
+            "contents": "targetBuild"
+        },
+        {
+            "trigger": "caseSensitive",
+            "contents": "caseSensitive"
+        },
+        {
+            "trigger": "destinationDir",
+            "contents": "destinationDir"
+        },
+        {
+            "trigger": "dirMode",
+            "contents": "dirMode"
+        },
+        {
+            "trigger": "duplicatesStrategy",
+            "contents": "duplicatesStrategy"
+        },
+        {
+            "trigger": "fileMode",
+            "contents": "fileMode"
+        },
+        {
+            "trigger": "includeEmptyDirs",
+            "contents": "includeEmptyDirs"
+        },
+        {
+            "trigger": "eachFile",
+            "contents": "eachFile"
+        },
+        {
+            "trigger": "expand",
+            "contents": "expand"
+        },
+        {
+            "trigger": "filesMatching",
+            "contents": "filesMatching"
+        },
+        {
+            "trigger": "filesNotMatching",
+            "contents": "filesNotMatching"
+        },
+        {
+            "trigger": "filter",
+            "contents": "filter"
+        },
+        {
+            "trigger": "into",
+            "contents": "into"
+        },
+        {
+            "trigger": "rename",
+            "contents": "rename"
+        },
+        {
+            "trigger": "with",
+            "contents": "with"
+        },
+        {
+            "trigger": "defaultJvmOpts",
+            "contents": "defaultJvmOpts"
+        },
+        {
+            "trigger": "optsEnvironmentVar",
+            "contents": "optsEnvironmentVar"
+        },
+        {
+            "trigger": "outputDir",
+            "contents": "outputDir"
+        },
+        {
+            "trigger": "targetFiles",
+            "contents": "targetFiles"
+        },
+        {
+            "trigger": "args",
+            "contents": "args"
+        },
+        {
+            "trigger": "commandLine",
+            "contents": "commandLine"
+        },
+        {
+            "trigger": "environment",
+            "contents": "environment"
+        },
+        {
+            "trigger": "errorOutput",
+            "contents": "errorOutput"
+        },
+        {
+            "trigger": "execResult",
+            "contents": "execResult"
+        },
+        {
+            "trigger": "executable",
+            "contents": "executable"
+        },
+        {
+            "trigger": "ignoreExitValue",
+            "contents": "ignoreExitValue"
+        },
+        {
+            "trigger": "standardInput",
+            "contents": "standardInput"
+        },
+        {
+            "trigger": "standardOutput",
+            "contents": "standardOutput"
+        },
+        {
+            "trigger": "workingDir",
+            "contents": "workingDir"
+        },
+        {
+            "trigger": "classes",
+            "contents": "classes"
+        },
+        {
+            "trigger": "effort",
+            "contents": "effort"
+        },
+        {
+            "trigger": "excludeFilter",
+            "contents": "excludeFilter"
+        },
+        {
+            "trigger": "findbugsClasspath",
+            "contents": "findbugsClasspath"
+        },
+        {
+            "trigger": "includeFilter",
+            "contents": "includeFilter"
+        },
+        {
+            "trigger": "maxHeapSize",
+            "contents": "maxHeapSize"
+        },
+        {
+            "trigger": "omitVisitors",
+            "contents": "omitVisitors"
+        },
+        {
+            "trigger": "pluginClasspath",
+            "contents": "pluginClasspath"
+        },
+        {
+            "trigger": "reportLevel",
+            "contents": "reportLevel"
+        },
+        {
+            "trigger": "visitors",
+            "contents": "visitors"
+        },
+        {
+            "trigger": "aggregate",
+            "contents": "aggregate"
+        },
+        {
+            "trigger": "groovyClasspath",
+            "contents": "groovyClasspath"
+        },
+        {
+            "trigger": "groovyOptions",
+            "contents": "groovyOptions"
+        },
+        {
+            "trigger": "options",
+            "contents": "options"
+        },
+        {
+            "trigger": "docTitle",
+            "contents": "docTitle"
+        },
+        {
+            "trigger": "footer",
+            "contents": "footer"
+        },
+        {
+            "trigger": "header",
+            "contents": "header"
+        },
+        {
+            "trigger": "includePrivate",
+            "contents": "includePrivate"
+        },
+        {
+            "trigger": "links",
+            "contents": "links"
+        },
+        {
+            "trigger": "overview",
+            "contents": "overview"
+        },
+        {
+            "trigger": "use",
+            "contents": "use"
+        },
+        {
+            "trigger": "windowTitle",
+            "contents": "windowTitle"
+        },
+        {
+            "trigger": "link",
+            "contents": "link"
+        },
+        {
+            "trigger": "appendix",
+            "contents": "appendix"
+        },
+        {
+            "trigger": "archiveName",
+            "contents": "archiveName"
+        },
+        {
+            "trigger": "archivePath",
+            "contents": "archivePath"
+        },
+        {
+            "trigger": "baseName",
+            "contents": "baseName"
+        },
+        {
+            "trigger": "entryCompression",
+            "contents": "entryCompression"
+        },
+        {
+            "trigger": "metaInf",
+            "contents": "metaInf"
+        },
+        {
+            "trigger": "failOnError",
+            "contents": "failOnError"
+        },
+        {
+            "trigger": "maxMemory",
+            "contents": "maxMemory"
+        },
+        {
+            "trigger": "title",
+            "contents": "title"
+        },
+        {
+            "trigger": "allJvmArgs",
+            "contents": "allJvmArgs"
+        },
+        {
+            "trigger": "bootstrapClasspath",
+            "contents": "bootstrapClasspath"
+        },
+        {
+            "trigger": "debug",
+            "contents": "debug"
+        },
+        {
+            "trigger": "enableAssertions",
+            "contents": "enableAssertions"
+        },
+        {
+            "trigger": "jvmArgs",
+            "contents": "jvmArgs"
+        },
+        {
+            "trigger": "main",
+            "contents": "main"
+        },
+        {
+            "trigger": "systemProperties",
+            "contents": "systemProperties"
+        },
+        {
+            "trigger": "copyTo",
+            "contents": "copyTo"
+        },
+        {
+            "trigger": "jdependClasspath",
+            "contents": "jdependClasspath"
+        },
+        {
+            "trigger": "additionalRuntimeJars",
+            "contents": "additionalRuntimeJars"
+        },
+        {
+            "trigger": "contextPath",
+            "contents": "contextPath"
+        },
+        {
+            "trigger": "daemon",
+            "contents": "daemon"
+        },
+        {
+            "trigger": "jettyConfig",
+            "contents": "jettyConfig"
+        },
+        {
+            "trigger": "reload",
+            "contents": "reload"
+        },
+        {
+            "trigger": "scanIntervalSeconds",
+            "contents": "scanIntervalSeconds"
+        },
+        {
+            "trigger": "webAppSourceDirectory",
+            "contents": "webAppSourceDirectory"
+        },
+        {
+            "trigger": "webXml",
+            "contents": "webXml"
+        },
+        {
+            "trigger": "webApp",
+            "contents": "webApp"
+        },
+        {
+            "trigger": "pmdClasspath",
+            "contents": "pmdClasspath"
+        },
+        {
+            "trigger": "ruleSetFiles",
+            "contents": "ruleSetFiles"
+        },
+        {
+            "trigger": "ruleSets",
+            "contents": "ruleSets"
+        },
+        {
+            "trigger": "targetJdk",
+            "contents": "targetJdk"
+        },
+        {
+            "trigger": "publication",
+            "contents": "publication"
+        },
+        {
+            "trigger": "repository",
+            "contents": "repository"
+        },
+        {
+            "trigger": "scalaClasspath",
+            "contents": "scalaClasspath"
+        },
+        {
+            "trigger": "scalaCompileOptions",
+            "contents": "scalaCompileOptions"
+        },
+        {
+            "trigger": "scalaDocOptions",
+            "contents": "scalaDocOptions"
+        },
+        {
+            "trigger": "rootModel",
+            "contents": "rootModel"
+        },
+        {
+            "trigger": "compression",
+            "contents": "compression"
+        },
+        {
+            "trigger": "binResultsDir",
+            "contents": "binResultsDir"
+        },
+        {
+            "trigger": "forkEvery",
+            "contents": "forkEvery"
+        },
+        {
+            "trigger": "maxParallelForks",
+            "contents": "maxParallelForks"
+        },
+        {
+            "trigger": "scanForTestClasses",
+            "contents": "scanForTestClasses"
+        },
+        {
+            "trigger": "testClassesDir",
+            "contents": "testClassesDir"
+        },
+        {
+            "trigger": "testLogging",
+            "contents": "testLogging"
+        },
+        {
+            "trigger": "testReport",
+            "contents": "testReport"
+        },
+        {
+            "trigger": "testSrcDirs",
+            "contents": "testSrcDirs"
+        },
+        {
+            "trigger": "addTestListener",
+            "contents": "addTestListener"
+        },
+        {
+            "trigger": "addTestOutputListener",
+            "contents": "addTestOutputListener"
+        },
+        {
+            "trigger": "afterSuite",
+            "contents": "afterSuite"
+        },
+        {
+            "trigger": "afterTest",
+            "contents": "afterTest"
+        },
+        {
+            "trigger": "beforeSuite",
+            "contents": "beforeSuite"
+        },
+        {
+            "trigger": "beforeTest",
+            "contents": "beforeTest"
+        },
+        {
+            "trigger": "onOutput",
+            "contents": "onOutput"
+        },
+        {
+            "trigger": "removeTestListener",
+            "contents": "removeTestListener"
+        },
+        {
+            "trigger": "removeTestOutputListener",
+            "contents": "removeTestOutputListener"
+        },
+        {
+            "trigger": "useJUnit",
+            "contents": "useJUnit"
+        },
+        {
+            "trigger": "useTestNG",
+            "contents": "useTestNG"
+        },
+        {
+            "trigger": "testResultDirs",
+            "contents": "testResultDirs"
+        },
+        {
+            "trigger": "reportOn",
+            "contents": "reportOn"
+        },
+        {
+            "trigger": "uploadDescriptor",
+            "contents": "uploadDescriptor"
+        },
+        {
+            "trigger": "webInf",
+            "contents": "webInf"
+        },
+        {
+            "trigger": "archiveBase",
+            "contents": "archiveBase"
+        },
+        {
+            "trigger": "distributionBase",
+            "contents": "distributionBase"
+        },
+        {
+            "trigger": "distributionPath",
+            "contents": "distributionPath"
+        },
+        {
+            "trigger": "distributionUrl",
+            "contents": "distributionUrl"
+        },
+        {
+            "trigger": "jarFile",
+            "contents": "jarFile"
+        },
+        {
+            "trigger": "propertiesFile",
+            "contents": "propertiesFile"
+        },
+        {
+            "trigger": "scriptFile",
+            "contents": "scriptFile"
         }
     ]
 }
