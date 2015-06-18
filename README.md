@@ -25,12 +25,12 @@ Referenced by:
 To install it manually in a shell/Terminal (on OS X, Linux or Cygwin), via git:
 
     cd ~/"Library/Application Support/Sublime Text 2/Packages/" # location on OS X; will be different on Linux & Windows
-    git clone https://github.com/bgreenlee/sublime-gradle.git
+    git clone https://github.com/koizuss/sublime-gradle.git
 
 or, if you don't have git installed:
 
     cd ~/"Library/Application Support/Sublime Text 2/Packages/"
-    curl -L https://github.com/bgreenlee/sublime-gradle/tarball/master | tar xf -
+    curl -L https://github.com/koizuss/sublime-gradle/tarball/master | tar xf -
 
 The plugin should be picked up automatically. If not, restart Sublime Text.
 
